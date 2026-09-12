@@ -1,0 +1,34 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "create tinyurls",
+  "keywords": [
+    "tinyurl",
+    "million",
+    "requests",
+    "billion",
+    "reads",
+    "NodeJS",
+    "MongoDB",
+    "Redis",
+    "React"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "tinyurl"
+  },
+  "license": "ISC",
+  "author": "Nilay Pradhan",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "test"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5",
+    "redis": "^6.2.1"
+  }
+}
